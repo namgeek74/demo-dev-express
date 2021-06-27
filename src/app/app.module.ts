@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DxButtonModule } from 'devextreme-angular';
+import { DemoTableComponent } from './pages/demo-table/demo-table.component';
+import { MenuComponent } from './pages/menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DemoTableComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
