@@ -5,9 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'demo-dev-express';
-  helloWorld() {
-    alert('Hello world!');
-  }
-}
+export class AppComponent {}
